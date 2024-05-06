@@ -144,6 +144,35 @@ nav a:first-of-type {
 
 
 
+/* Media Queries for Kontaktsektion */
+@media (max-width: 767px) {
+  .centered1, .centered2, .centered3 {
+    width: 100%; /* Ændrer bredden til 100% for at fylde hele skærmbredden */
+    margin-bottom: 20px; /* Tilføjer lidt plads mellem hver kontaktsektion */
+  }
+
+  .centered1 img, .centered2 img, .centered3 img {
+    width: 60px; /* Reducerer billedstørrelsen på mindre skærme */
+    height: 60px;
+  }
+
+  .centered1 p, .centered2 p, .centered3 p {
+    font-size: 10px; /* Justerer tekststørrelsen til mindre skærme */
+  }
+}
+
+/* Media Query for Footer Logo */
+@media (max-width: 767px) {
+  .footer logo {
+    width: 80px; /* Reducerer logoets størrelse på mindre skærme */
+    height: 80px; 
+    margin-bottom: 10px; /* Tilføjer lidt plads under logoet */
+  }
+}
+
+
+
+
 
 
 
